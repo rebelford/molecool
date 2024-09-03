@@ -7,6 +7,7 @@ molecool
 
 A Python package for analyzing and visualizing xyz files.
 
+<<<<<<< HEAD
 On branch main
 Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
@@ -19,6 +20,26 @@ no changes added to commit (use "git add" and/or "git commit -a")
 This package requires the following:
 -NumPy
 -matplotlib
+=======
+This repository is currently under development. To do installation in development mode, download this repository and type
+
+`pip install -e .`
+
+in the repository directory.
+
+This package requires the following:
+  - NumPy
+  - matplotlib
+
+Features should be developed on branches. 
+To create and switch to a branch, use the command
+
+`git checkout -b new_branch_name`
+
+To switch to an existing branch, use
+
+`git checkout new_branch_name`
+>>>>>>> lesson-follow
 
 ### Copyright
 
